@@ -35,14 +35,14 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Designer", "Artist"],
+        strings: ["Artist", "Logo creater"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Designer", "Artist"],
+        strings: ["Artist", "logo creater"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
@@ -60,8 +60,10 @@ $(document).ready(function(){
                 items: 1,
                 nav: false
             },
-            
-           
+            600:{
+                items: 2,
+                nav: false
+            },
         }
     });
 });
